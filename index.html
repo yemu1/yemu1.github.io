@@ -1,505 +1,297 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<!--<![endif]-->
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>AppPonsive | Portfolio Landing Page</title>
-    <meta name="description" content="">
+    <title>Black &amp; White</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Google fonts - which you want to use - (rest you can just remove) -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
-
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+    <!-- css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/prettyPhoto.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/pace.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- js -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 </head>
 
-<body id="top">
-    <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade ybrowser</a> to improve your experience.</p>
-    <![endif]-->
-
-    <header>
-        <!-- NAVIGATION -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <!-- LOGO -->
-                    <a class="navbar-brand page-scroll" href="#page-top">
-                        <img src="img/logo.png" alt="">
-                    </a>
-                    <!-- END LOGO -->
-
+<body>
+<div class="container">
+    <header id="site-header">
+        <div class="row">
+            <div class="col-md-4 col-sm-5 col-xs-8">
+                <div class="logo">
+                    <h1><a href="index.html"><b>Black</b> &amp; White</a></h1>
                 </div>
+            </div><!-- col-md-4 -->
+            <div class="col-md-8 col-sm-7 col-xs-4">
+                <nav class="main-nav" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" id="trigger-overlay" class="navbar-toggle">
+                            <span class="ion-navicon"></span>
+                        </button>
+                    </div>
 
-                <!-- TOGGLE NAV -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="cl-effect-11"><a href="index.html" data-hover="首页">首页</a></li>
+                            <li class="cl-effect-11"><a href="full-width.html" data-hover="博客">博客</a></li>
+                            <li class="cl-effect-11"><a href="about.html" data-hover="关于">关于</a></li>
+                            <li class="cl-effect-11"><a href="contact.html" data-hover="联系">联系</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+                <div id="header-search-box">
+                    <a id="search-menu" href="#"><span id="search-icon" class="ion-ios-search-strong"></span></a>
+                    <div id="search-form" class="search-form">
+                        <form role="search" method="get" id="searchform" action="#">
+                            <input type="search" placeholder="搜索" required>
+                            <button type="submit"><span class="ion-ios-search-strong"></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- col-md-8 -->
+        </div>
+    </header>
+</div>
+<div class="copyrights">Collect from <a href="http://www.cssmoban.com/">网页模板</a></div>
+<div class="copyrights">Modified by <a href="http://zmrenwu.com/">追梦人物的博客</a></div>
+
+<div class="content-body">
+    <div class="container">
+        <div class="row">
+            <main class="col-md-8">
+                <article class="post post-1">
+                    <header class="entry-header">
+                        <h1 class="entry-title">
+                            <a href="single.html">Django 博客开发入门教程：前言</a>
+                        </h1>
+                        <div class="entry-meta">
+                            <span class="post-category"><a href="#">Django 博客教程</a></span>
+                            <span class="post-date"><a href="#"><time class="entry-date"
+                                                                      datetime="2012-11-09T23:15:57+00:00">2017年5月11日</time></a></span>
+                            <span class="post-author"><a href="#">追梦人物</a></span>
+                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="views-count"><a href="#">588 阅读</a></span>
+                        </div>
+                    </header>
+                    <div class="entry-content clearfix">
+                        <p>免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Django
+                            开发的技巧...</p>
+                        <div class="read-more cl-effect-14">
+                            <a href="#" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post post-2">
+                    <header class="entry-header">
+                        <h1 class="entry-title">
+                            <a href="single.html">Django 博客开发入门教程：前言</a>
+                        </h1>
+                        <div class="entry-meta">
+                            <span class="post-category"><a href="#">Django 博客教程</a></span>
+                            <span class="post-date"><a href="#"><time class="entry-date"
+                                                                      datetime="2012-11-09T23:15:57+00:00">2017年5月11日</time></a></span>
+                            <span class="post-author"><a href="#">追梦人物</a></span>
+                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="views-count"><a href="#">588 阅读</a></span>
+                        </div>
+                    </header>
+                    <div class="entry-content clearfix">
+                        <p>免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Django
+                            开发的技巧...</p>
+                        <div class="read-more cl-effect-14">
+                            <a href="#" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post post-3">
+                    <header class="entry-header">
+                        <h1 class="entry-title">
+                            <a href="single.html">Django 博客开发入门教程：前言</a>
+                        </h1>
+                        <div class="entry-meta">
+                            <span class="post-category"><a href="#">Django 博客教程</a></span>
+                            <span class="post-date"><a href="#"><time class="entry-date"
+                                                                      datetime="2012-11-09T23:15:57+00:00">2017年5月11日</time></a></span>
+                            <span class="post-author"><a href="#">追梦人物</a></span>
+                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="views-count"><a href="#">588 阅读</a></span>
+                        </div>
+                    </header>
+                    <div class="entry-content clearfix">
+                        <p>免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Django
+                            开发的技巧...</p>
+                        <div class="read-more cl-effect-14">
+                            <a href="#" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post post-4">
+                    <header class="entry-header">
+                        <h1 class="entry-title">
+                            <a href="single.html">Django 博客开发入门教程：前言</a>
+                        </h1>
+                        <div class="entry-meta">
+                            <span class="post-category"><a href="#">Django 博客教程</a></span>
+                            <span class="post-date"><a href="#"><time class="entry-date"
+                                                                      datetime="2012-11-09T23:15:57+00:00">2017年5月11日</time></a></span>
+                            <span class="post-author"><a href="#">追梦人物</a></span>
+                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="views-count"><a href="#">588 阅读</a></span>
+                        </div>
+                    </header>
+                    <div class="entry-content clearfix">
+                        <p>免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Django
+                            开发的技巧...</p>
+                        <div class="read-more cl-effect-14">
+                            <a href="#" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- 简单分页效果
+                <div class="pagination-simple">
+                    <a href="#">上一页</a>
+                    <span class="current">第 6 页 / 共 11 页</span>
+                    <a href="#">下一页</a>
+                </div>
+                -->
+                <div class="pagination">
+                    <ul>
+                        <li><a href="">1</a></li>
+                        <li><a href="">...</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                        <li class="current"><a href="">6</a></li>
+                        <li><a href="">7</a></li>
+                        <li><a href="">8</a></li>
+                        <li><a href="">...</a></li>
+                        <li><a href="">11</a></li>
+                    </ul>
+                </div>
+            </main>
+            <aside class="col-md-4">
+                <div class="widget widget-recent-posts">
+                    <h3 class="widget-title">最新文章</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Django 博客开发入门教程：前言</a>
                         </li>
-                        <li><a class="page-scroll" href="#top">Home</a>
+                        <li>
+                            <a href="#">Django 博客使用 Markdown 自动生成文章目录</a>
                         </li>
-                        <li><a class="page-scroll" href="#services">Services</a>
-                        </li>
-                        <li><a class="page-scroll" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li><a class="page-scroll" href="#testimonial">Testimonial</a>
-                        </li>
-                        <li><a class="page-scroll" href="#contact">Contact</a>
+                        <li>
+                            <a href="#">部署 Django 博客</a>
                         </li>
                     </ul>
                 </div>
-                <!-- TOGGLE NAV -->
-
-            </div>
-            <!-- /.container -->
-        </nav>
-        <!-- END NAVIGATION -->
-    </header>
-
-    <!-- HOME -->
-    <div id="home-area">
-        <div class="overlay">
-            <div class="container">
-                <div class="row">
-
-                    <!-- HOME CONTENT -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="home-content wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
-                            <h1>We Create Solutions</h1>
-                            <p>We are a <strong>Creative Team</strong>. We find the problems, Create Solutions. Design & Development is our Passion.</p>
-                            <a class="button home" href="#">Get Started</a>
-                        </div>
-                    </div>
-                    <!-- END HOME CONTENT -->
-
-                    <!-- HOME FEATURE IMAGE -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="home-feature pull-right center-block wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
-                            <img class="img-responsive" src="img/app.png" alt="">
-                        </div>
-                    </div>
-                    <!-- END HOME FEATURE IMAGE -->
-
+                <div class="widget widget-archives">
+                    <h3 class="widget-title">归档</h3>
+                    <ul>
+                        <li>
+                            <a href="#">2017 年 5 月</a>
+                        </li>
+                        <li>
+                            <a href="#">2017 年 4 月</a>
+                        </li>
+                        <li>
+                            <a href="#">2017 年 3 月</a>
+                        </li>
+                    </ul>
                 </div>
+
+                <div class="widget widget-category">
+                    <h3 class="widget-title">分类</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Django 博客教程 <span class="post-count">(13)</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Python 教程 <span class="post-count">(11)</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Django 用户认证 <span class="post-count">(8)</span></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="widget widget-tag-cloud">
+                    <h3 class="widget-title">标签云</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Django</a>
+                        </li>
+                        <li>
+                            <a href="#">Python</a>
+                        </li>
+                        <li>
+                            <a href="#">Java</a>
+                        </li>
+                        <li>
+                            <a href="#">笔记</a>
+                        </li>
+                        <li>
+                            <a href="#">文档</a>
+                        </li>
+                        <li>
+                            <a href="#">AngularJS</a>
+                        </li>
+                        <li>
+                            <a href="#">CSS</a>
+                        </li>
+                        <li>
+                            <a href="#">JavaScript</a>
+                        </li>
+                        <li>
+                            <a href="#">Snippet</a>
+                        </li>
+                        <li>
+                            <a href="#">jQuery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rss">
+                    <a href=""><span class="ion-social-rss-outline"></span> RSS 订阅</a>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer id="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="copyright">&copy 2017 - 采集自<a href="http://www.cssmoban.com/"
+                                                        target="_blank" title="模板之家">模板之家</a>
+                    - 由<a href="http://zmrenwu.com/" title="网页模板" target="_blank">追梦人物的博客</a>修改
+                </p>
             </div>
         </div>
     </div>
-    <!-- END HOME -->
+</footer>
 
-    <!-- SERVICES -->
-    <section id="services" class="section text-center">
-        <div class="container">
-            <h2 class="section-title wow fadeIn">Services</h2>
-            <div class="row">
+<!-- Mobile Menu -->
+<div class="overlay overlay-hugeinc">
+    <button type="button" class="overlay-close"><span class="ion-ios-close-empty"></span></button>
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="full-width.html">博客</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="contact.html">联系</a></li>
+        </ul>
+    </nav>
+</div>
 
-                <!-- SINGLE SERVICE -->
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-service text-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
-                        <div class="service-content text-left">
-                            <i class="fa fa-desktop fa-3x"></i>
-                            <h3>Web Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet odit amet repellendus, eum ipsum laboriosam.</p>
-                            <a href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SINGLE SERVICE -->
+<script src="js/script.js"></script>
 
-                <!-- SINGLE SERVICE -->
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                        <div class="service-title">
-                            <i class="fa fa-mobile-phone fa-3x"></i>
-                        </div>
-                        <div class="service-content">
-                            <h3>Mobile Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet odit amet repellendus, eum ipsum laboriosam.</p>
-                            <a href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SINGLE SERVICE -->
-
-                <!-- SINGLE SERVICE -->
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">
-                        <div class="service-title">
-                            <i class="fa fa-code fa-3x"></i>
-                        </div>
-                        <div class="service-content">
-                            <h3>Code</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet odit amet repellendus, eum ipsum laboriosam.</p>
-                            <a href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SINGLE SERVICE -->
-
-                <!-- SINGLE SERVICE -->
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".9s">
-                        <div class="service-title">
-                            <i class="fa fa-shopping-cart fa-3x"></i>
-                        </div>
-                        <div class="service-content">
-                            <h3>Ecommerce</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet odit amet repellendus, eum ipsum laboriosam.</p>
-                            <a href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SINGLE SERVICE -->
-
-                <!-- SINGLE SERVICE -->
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.2s">
-                        <div class="service-title">
-                            <i class="fa fa-cog fa-3x"></i>
-                        </div>
-                        <div class="service-content">
-                            <h3>CMS</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet odit amet repellendus, eum ipsum laboriosam.</p>
-                            <a href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SINGLE SERVICE -->
-
-                <!-- SINGLE SERVICE -->
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-service text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.5s">
-                        <div class="service-title">
-                            <i class="fa fa-rocket fa-3x"></i>
-                        </div>
-                        <div class="service-content">
-                            <h3>Web Application</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet odit amet repellendus, eum ipsum laboriosam.</p>
-                            <a href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SINGLE SERVICE -->
-
-            </div>
-            <!--.row-->
-        </div>
-        <!--/.container -->
-    </section>
-    <!-- END SERVICES -->
-
-    <!-- PORTFOLIO -->
-    <section id="portfolio" class="section text-center">
-        <div class="container">
-            <h2 class="section-title wow fadeIn">Portfolio</h2>
-            <div class="portfolio-filter text-center wow fadeInLeft" data-wow-duration="1s">
-                <a href="#">Mobile</a>
-                <a href="#">Web Design</a>
-                <a href="#">Branding</a>
-                <a href="#">Photography</a>
-            </div>
-            <div class="row">
-                <div class="portfolio-gallery wow pulse">
-
-                    <!-- SINGLE PORTFOLIO -->
-                    <div class="single-portfolio">
-                        <a href="img/portfolio/01.png" class="prettyPhoto" title="Single Portfolio">
-                            <img src="img/portfolio/01.png" alt="" class="img-responsive center-block">
-                        </a>
-                    </div>
-                    <!-- END SINGLE PORTFOLIO -->
-
-                    <!-- SINGLE PORTFOLIO -->
-                    <div class="single-portfolio">
-                        <a href="img/portfolio/02.png" class="prettyPhoto" title="Single Portfolio">
-                            <img src="img/portfolio/02.png" alt="" class="img-responsive center-block">
-                        </a>
-                    </div>
-                    <!-- END SINGLE PORTFOLIO -->
-
-                    <!-- SINGLE PORTFOLIO -->
-                    <div class="single-portfolio">
-                        <a href="img/portfolio/03.png" class="prettyPhoto" title="Single Portfolio">
-                            <img src="img/portfolio/03.png" alt="" class="img-responsive center-block">
-                        </a>
-                    </div>
-                    <!-- END SINGLE PORTFOLIO -->
-
-                    <!-- SINGLE PORTFOLIO -->
-                    <div class="single-portfolio">
-                        <a href="img/portfolio/04.png" class="prettyPhoto" title="Single Portfolio">
-                            <img src="img/portfolio/04.png" alt="" class="img-responsive center-block">
-                        </a>
-                    </div>
-                    <!-- END SINGLE PORTFOLIO -->
-
-                    <!-- SINGLE PORTFOLIO -->
-                    <div class="single-portfolio">
-                        <a href="img/portfolio/05.png" class="prettyPhoto" title="Single Portfolio">
-                            <img src="img/portfolio/05.png" alt="" class="img-responsive center-block">
-                        </a>
-                    </div>
-                    <!-- END SINGLE PORTFOLIO -->
-
-                    <!-- SINGLE PORTFOLIO -->
-                    <div class="single-portfolio">
-                        <a href="img/portfolio/06.png" class="prettyPhoto" title="Single Portfolio">
-                            <img src="img/portfolio/06.png" alt="" class="img-responsive center-block">
-                        </a>
-                    </div>
-                    <!-- END SINGLE PORTFOLIO -->
-
-                    <!-- SINGLE PORTFOLIO -->
-                    <div class="single-portfolio">
-                        <a href="img/portfolio/07.png" class="prettyPhoto" title="Single Portfolio">
-                            <img src="img/portfolio/07.png" alt="" class="img-responsive center-block">
-                        </a>
-                    </div>
-                    <!-- END SINGLE PORTFOLIO -->
-
-                    <!-- SINGLE PORTFOLIO -->
-                    <div class="single-portfolio">
-                        <a href="img/portfolio/08.png" class="prettyPhoto" title="Single Portfolio">
-                            <img src="img/portfolio/08.png" alt="" class="img-responsive center-block">
-                        </a>
-                    </div>
-                    <!-- END SINGLE PORTFOLIO -->
-
-
-                </div>
-                <!--./portfolio-gallery-->
-            </div>
-        </div>
-        <!--/.container-->
-    </section>
-    <!-- END PORTFOLIO -->
-
-    <!-- NEWSLETTER -->
-    <section id="newsletter" class="section text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <div class="newsletter-content wow fadeInDown" data-wow-duration="1s">
-                        <h2>Like our Work? Stay Connected</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, optio.</p>
-                    </div>
-                    <div class="form-group wow fadeInUp" data-wow-duration="1s">
-                        <input type="email" class="form-control" placeholder="Your Email Address">
-                        <input type="submit" class="pull-right button newsletter">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END NEWSLETTER -->
-
-    <!-- TESTIMONIAL -->
-    <section id="testimonial" class="section text-center">
-        <h2 class="section-title">Testimonial</h2>
-        <div class="container">
-
-            <!-- TESTIMONIAL SLIDER -->
-            <div id="owl-demo" class="owl-carousel owl-theme">
-
-                <!-- SINGLE TESTIMONIAL -->
-                <div class="item">
-                    <div class="single-testimonial">
-                        <img class="center-block wow fadeInDown" data-wow-duration="1s" src="img/client.png" alt="Testimoinial">
-                        <p class="wow fadeInDown" data-wow-duration="1s">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui velit modi quasi ut placeat, id cum architecto cumque consequatur rem.
-                        </p>
-                        <div class="social-networks wow fadeInDown" data-wow-duration="1s">
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SINGLE TESTIMONIAL -->
-
-                <!-- SINGLE TESTIMONIAL -->
-                <div class="item">
-                    <div class="single-testimonial">
-                        <img class="center-block wow fadeInDown" data-wow-duration="1s" src="img/client2.png" alt="Testimoinial">
-                        <p class="wow fadeInDown" data-wow-duration="1s">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui velit modi quasi ut placeat, id cum architecto cumque consequatur rem.
-                        </p>
-                        <div class="social-networks wow fadeInDown" data-wow-duration="1s">
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SINGLE TESTIMONIAL -->
-
-                <!-- SINGLE TESTIMONIAL -->
-                <div class="item">
-                    <div class="single-testimonial">
-                        <img class="center-block wow fadeInDown" data-wow-duration="1s" src="img/client3.png" alt="Testimoinial">
-                        <p class="wow fadeInDown" data-wow-duration="1s">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui velit modi quasi ut placeat, id cum architecto cumque consequatur rem.
-                        </p>
-                        <div class="social-networks wow fadeInDown" data-wow-duration="1s">
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SINGLE TESTIMONIAL -->
-
-            </div>
-            <!-- END TESTIMONIAL SLIDER -->
-
-            <div class="testimonial-action wow fadeInUp" data-wow-duration="1s">
-                <a class="button testimonial" href="#">Read More</a>
-            </div>
-
-        </div>
-        <!--/.container -->
-    </section>
-    <!-- END TESTIMONIAL -->
-
-    <!-- GET TRIAL -->
-    <section id="get-trial" class="section text-center">
-        <div class="container">
-            <h4 class="wow fadeInLeft" data-wow-duration="1s">If you like our product features and our portfolio then you can get trial for FREE</h4>
-            <a class="button get-trial wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" href="#">Get a Trial</a>
-        </div>
-    </section>
-    <!-- END GET TRIAL -->
-
-    <!-- CONTACT US -->
-    <section id="contact" class="section text-center">
-        <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            <div class="row">
-
-                <!-- CONTACT FORM -->
-                <div class="col-md-7 col-md-offset-1 text-left wow fadeInLeft" data-wow-duration="1s">
-                    <form action="#" method="post" class="contact-form  wow fadeInLeft">
-                        <div class="form-group">
-                            <input type="text" required class="form-control" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" required class="form-control" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" required class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <textarea required class="form-control" rows="5" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="pull-left send-button button">Send Message</button>
-                    </form>
-                </div>
-                <!-- END CONTACT FORM -->
-
-                <!-- CONTACT INFO -->
-                <div class="col-md-3">
-                    <div class="contact-info text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                        <h3>Get In Touch</h3>
-                        <p><span><i class="fa fa-map-marker"></i></span> Little Lonsdale St, Talay</p>
-                        <p><span><i class="fa fa-phone"></i></span> +123 456 789</p>
-                        <p><span><i class="fa fa-envelope-o"></i></span> info@email.com</p>
-                    </div>
-                    <div class="business-hours text-left wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">
-                        <h3>Business Hours</h3>
-                        <p>Monday - Friday: 9 am to 20 pm</p>
-                        <p>Saturday: 9 am to 17 pm</p>
-                        <p>Sunday: day off</p>
-                    </div>
-                </div>
-                <!-- END CONTACT INFO -->
-
-            </div>
-        </div>
-    </section>
-    <!-- END CONTACT US -->
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="row">
-
-                <!-- FOOTER MENU -->
-                <div class="col-md-6">
-                    <div class="footer-menu">
-                        <ul class="list-inline">
-                            <li><a href="#">Home</a>
-                            </li>
-                            <li><a href="#">About</a>
-                            </li>
-                            <li><a href="#">Contact</a>
-                            </li>
-                            <li><a href="#">Portfolio</a>
-                            </li>
-                            <li><a href="#">Services</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- END FOOTER MENU -->
-
-                <!-- FOOTER CONTENT -->
-                <div class="col-md-6">
-                    <div class="footer-content text-right">
-                        <p>&copy; 2014 All Rights Reserved, <a href="http://codeponsive.com/">CodePonsive</a>
-                        </p>
-                    </div>
-                </div>
-                <!-- END FOOTER CONTENT -->
-
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- ./container -->
-    </footer>
-    <!-- END FOOTER -->
-
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-58035815-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <!-- js files -->
-    <script src="js/vendor/jquery-1.10.2.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/prettyPhoto.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
 </body>
+</html>
